@@ -1,0 +1,268 @@
+/* Additional styles for the portfolio website */
+
+/* Skills container layout */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.skill-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.skill-column h3 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Languages section */
+.languages-section {
+    margin-top: 50px;
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.languages-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.languages-list li {
+    background-color: rgba(74, 108, 247, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Hobbies section */
+.hobbies-section {
+    margin-top: 50px;
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hobbies-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hobbies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hobbies-list li {
+    background-color: rgba(74, 108, 247, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Extracurriculars section */
+.extracurriculars {
+    background-color: var(--bg-color-alt);
+}
+
+.extracurricular-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.extracurricular-item {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.extracurricular-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.extracurricular-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.extracurricular-item p {
+    color: var(--text-color-light);
+}
+
+/* References section */
+.references {
+    background-color: var(--bg-color-alt);
+}
+
+.references-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.reference-item {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.reference-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.reference-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.reference-item p {
+    color: var(--text-color-light);
+    margin-bottom: 20px;
+}
+
+.reference-contact {
+    background-color: rgba(74, 108, 247, 0.05);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.reference-contact p {
+    margin-bottom: 5px;
+}
+
+.reference-contact strong {
+    color: var(--text-color);
+}
+
+/* Other qualifications */
+.other-qualifications {
+    margin-top: 50px;
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other-qualifications h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.other-qualifications ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.other-qualifications li {
+    margin-bottom: 10px;
+    color: var(--text-color-light);
+}
+
+.other-qualifications strong {
+    color: var(--text-color);
+}
+
+/* Progress bar for skills */
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+/* Add styling for the profile photo */
+.profile-photo {
+    max-width: 80%;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(74, 108, 247, 0.3);
+}
+
+/* Custom technology icons */
+.icon-kotlin {
+    display: inline-block;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><path d="M0,60 L60,0 L60,60 Z" fill="%234a6cf7"/><path d="M0,0 L60,0 L0,60 Z" fill="%234a6cf7"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tech-icon i,
+.tech-icon .icon-custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .languages-list,
+    .hobbies-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .extracurricular-items,
+    .references-content {
+        grid-template-columns: 1fr;
+    }
+}
